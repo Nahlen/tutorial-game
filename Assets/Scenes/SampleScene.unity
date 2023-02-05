@@ -578,6 +578,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1044874126235278063, guid: 77f14f8ef3fe8124db0041b763a2f26b,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 19faba2c712e3404f9a1f346b3ca5787,
+        type: 2}
     - target: {fileID: 9165354824387660944, guid: 77f14f8ef3fe8124db0041b763a2f26b,
         type: 3}
       propertyPath: m_Name
@@ -841,6 +847,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 752474350}
+--- !u!114 &1594709551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1044874126235278063, guid: 77f14f8ef3fe8124db0041b763a2f26b,
+    type: 3}
+  m_PrefabInstance: {fileID: 897901923}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517d09186700e0b40a2d53ecb4409287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1813628270
 GameObject:
   m_ObjectHideFlags: 3
@@ -1014,6 +1032,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1044874126235278063, guid: 77f14f8ef3fe8124db0041b763a2f26b,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044874126235278063, guid: 77f14f8ef3fe8124db0041b763a2f26b,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1594709551}
     - target: {fileID: 9165354824387660944, guid: 77f14f8ef3fe8124db0041b763a2f26b,
         type: 3}
       propertyPath: m_Name

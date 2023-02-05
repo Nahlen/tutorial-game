@@ -66,8 +66,6 @@ public class Player : MonoBehaviour {
         } else {
             SetSelectedCounter(null);
         }
-
-        Debug.Log(selectedCounter);
     }
 
     private void HandleMovement() {
@@ -109,7 +107,6 @@ public class Player : MonoBehaviour {
 
         float rotateSpeed = 10f;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
-        // Debug.Log(transform.position);
     }
 
     private void SetSelectedCounter(ClearCounter selectedCounter) {
